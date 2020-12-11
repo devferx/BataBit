@@ -215,13 +215,20 @@ main {
   color: #757575;
 }
 
-.currency-table--container .down {
+.currency-table--container .icon {
   display: inline-block;
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url("./assets/icons/trending-down.svg");
   background-size: cover;
   background-position: center;
-  background-repeat: no;
+  background-repeat: no-repeat;
+}
+
+.currency-table--container .icon.down {
+  background-image: url("./assets/icons/trending-down.svg");
+}
+
+.currency-table--container .icon.up {
+  background-image: url("./assets/icons/trending-up.svg");
 }
