@@ -159,6 +159,7 @@ main {
   max-width: 500px;
   height: auto;
   margin: 0 auto;
+  margin-bottom: 30px;
   font-family: "Inter", sans-serif;
 }
 
@@ -167,7 +168,14 @@ main {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.3rem;
-  color: var(--bitcoin-orange);
+}
+
+.__orange {
+  color: var(--bitcoin-orange) !important;
+}
+
+.__blue {
+  color: var(--secondary-blue) !important;
 }
 
 .currency-table--container--grid {
@@ -195,6 +203,7 @@ main {
 }
 
 .currency-table--container--grid div:nth-child(even) {
+  justify-content: center;
   color: #757575;
 }
 
@@ -249,6 +258,10 @@ main {
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
+}
+
+.__soft-blue {
+  background-color: var(--soft-blue) !important;
 }
 
 .currency-table--date p {
