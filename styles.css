@@ -447,6 +447,10 @@ main {
   color: var(--just-white);
 }
 
+.__bg-blue {
+  background-color: var(--secondary-blue);
+}
+
 .plan-card--title {
   padding-top: 30px;
   font-size: 1.4rem;
